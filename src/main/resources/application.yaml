@@ -1,0 +1,17 @@
+aws:
+  dynamoDBUrl: http://localhost:8000
+  accessKey: EMPTY
+  secretKey: EMPTY
+
+bankInfo:
+  daviviendaUrl: http//davivienda/transfer
+  daviviendaSwift: DAVSTKSL9838
+  bancolombiaUrl: http://bancolombia/transfer
+  bancolombiaSwift: RSBACO9999
+  pichinchaSwith: AAA85555
+
+spring:
+  data:
+    dynamodb:
+      entity2ddl:
+       auto: create-only
